@@ -1,0 +1,70 @@
+h1 {
+  margin: 0;
+  font-family: sans-serif;
+  text-indent: 28px;
+  text-transform: uppercase;
+}
+
+div {
+  border: solid 2px #d7d7d7;
+}
+
+#global {
+  margin: 0 auto;
+  padding: 8px;
+  width: 800px;
+
+  color: #d7d7d7;
+}
+
+#global > h1 {
+  margin: 24px 0;
+}
+
+#topo {
+  margin-bottom: 8px;
+  height: 140px;
+  border-color: #e40090;
+  color: #e40090;
+}
+
+#topo h1 {
+  line-height: 140px;
+}
+
+#conteudo {
+  float: left;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  width: 500px;
+  height: 500px;
+  border-color: #98dac6;
+
+  color: #98dac6;
+}
+
+#menu {
+  float: left;
+  width: 284px;
+  height: 500px;
+  border-color: #8dc9e8;
+
+  color: #8dc9e8;
+}
+
+#conteudo h1,
+#menu h1 {
+  line-height: 500px;
+}
+
+#rodape {
+  clear: both;
+  height: 160px;
+  border-color: #ff7d00;
+
+  color: #ff7d00;
+}
+
+#rodape h1 {
+  line-height: 160px;
+}
